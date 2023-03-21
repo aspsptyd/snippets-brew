@@ -57,3 +57,9 @@ Intinya kalo mau pindah dari versi PHP satu ke PHP versi lain kita kudu unlink y
 <img width="876" alt="Screen Shot 2023-03-21 at 16 22 09" src="https://user-images.githubusercontent.com/98740335/226564131-23456b42-ff88-44fd-bdac-69fd76b3b578.png">
 
 Oke sudah berhasil ya.
+
+Nah biasanya nih kalo pengen nyesuaian versi Laravelnya kita acuannya dengan versi PHP, kurang lebih gambarannya seperti berikut
+
+<img width="584" alt="Screen Shot 2023-03-21 at 16 24 56" src="https://user-images.githubusercontent.com/98740335/226564796-1cf4fdad-c7b9-4b3b-9855-9ce524afabd3.png">
+
+Nah ini dokumentasi Laravel ya per `21 Maret 2023` source : https://laravel.com/docs/10.x/releases
