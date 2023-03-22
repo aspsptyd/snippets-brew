@@ -63,3 +63,13 @@ Nah biasanya nih kalo pengen nyesuaian versi Laravelnya kita acuannya dengan ver
 <img width="584" alt="Screen Shot 2023-03-21 at 16 24 56" src="https://user-images.githubusercontent.com/98740335/226564796-1cf4fdad-c7b9-4b3b-9855-9ce524afabd3.png">
 
 Nah ini dokumentasi Laravel ya per `21 Maret 2023` source : https://laravel.com/docs/10.x/releases
+
+## Catatan Tambahan!
+Jika kita switch ke PHP versi lain maka di `.zshrc` perlu kita command bagian source ke php versi yang tidak digunakan dan lakukan setup seperti berbikut
+
+```shell
+~ ⌚ 17:00:54
+$ brew unlink php@7.3 && brew link --force php@7.3
+```
+
+Simpan perubahan dan tutup ulang terminal lalu lakukan cek `php --version`
