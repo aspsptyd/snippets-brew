@@ -1,3 +1,26 @@
+## Cek List PHP yang Terinstall di Mac
+Ketikkan command dibawah ini
+
+```.sh
+brew list | grep php
+```
+
+dan akan memunculkan list php yang terinstall di Mac
+
+```.sh
+╭─goodevaninja_mac1 at Unix6fi3d in ~ using ‹ruby-2.7.6› 24-07-10 - 3:33:15
+╰─○ brew list | grep php
+php@7.0
+php@7.1
+php@7.2
+php@7.3
+php@7.4
+php@8.0
+php@8.1
+php@8.2
+phpmyadmin
+```
+
 ## Install Multiple Changer PHP
 Pertama paling cek dulu aja versinya, link source : https://medium.com/macoclock/how-to-install-multiple-php-versions-on-macos-1f290c32cd63
 
